@@ -7,13 +7,34 @@
 </head>
 
 <body>
-    <h1>Контакты</h1>
-    <hr align="left" width="100%" size="1" color="#000000" />
     <ul class="menu">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
         <li><a href="contacts.html">Контакты</a></li>
     </ul>
+    <hr align="left" width="100%" size="1" color="#000000" />
+    <h1>Контакты</h1>
+    <form name="form" action="mail.php" method="post" id="form_message">
+        <h2>Форма обратной связи.</h2>
+        <p>
+            <div class="titles">Ваше имя*</div>
+            <input class="input" name="name" type="text" /> </p>
+        <p>
+            <div class="titles">Электронная почта*</div>
+            <input class="input" name="email" type="text" /> </p>
+        <p>
+            <div class="titles">Тема сообщения</div>
+            <input class="input" name="subjects" type="text" /> </p>
+        <p>
+            <div class="titles">Текст сообщения:</div>
+            <textarea name="message" cols="22" rows="5" /></textarea>
+        </p>
+        <p>
+            <input id="submit" value="Отправить" type="submit" />
+        </p>
+    </form>
+    <h2>Адрес магазина</h2>
+    
     <footer>
         <hr align="left" width="100%" size="1" color="#000000" />
         <p>Все права защищены &copy;&nbsp;2020 </p>
