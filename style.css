@@ -1,14 +1,70 @@
-h3 {
-    color: red
+h1 {
+    color: darkblue;
+    text-align: center;
+    background-color: #eaeaea;
 }
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    border: 2px solid black;
+}
+
+.blue {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.green {
+    color: fff;
+}
+
+.list {
+    list-style-type: none;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.red {
+    color: #484343;
+    font-size: 16 px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
 body {
     background-color: #f8f8f8;
 }
+
 .menu li {
     font-style: italic;
     font-size: 20px;
     list-style-type: none;
 }
+
 .menu li a {
     color: #8B00FF;
+}
+
+img[alt="Самогонный аппарат"] {
+    border: 2px solid blue;
+}
+
+img[alt="Царга-диоптр"] {
+    border: 2px solid blue;
+}
+
+img[alt="Узел отбора"] {
+    border: 2px solid blue;
 }
